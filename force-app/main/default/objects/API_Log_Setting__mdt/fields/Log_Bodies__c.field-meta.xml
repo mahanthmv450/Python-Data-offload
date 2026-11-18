@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Log_Bodies__c</fullName>
+    <label>Log Bodies</label>
+    <inlineHelpText>Clear this if request and response bodies may hold personal data.</inlineHelpText>
+    <defaultValue>true</defaultValue>
+    <type>Checkbox</type>
+</CustomField>

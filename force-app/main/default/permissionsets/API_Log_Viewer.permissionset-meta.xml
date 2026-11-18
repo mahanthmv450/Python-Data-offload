@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Read access to the API Log object and tab.</description>
+    <fieldPermissions><editable>false</editable><field>API_Log__c.Direction__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>API_Log__c.Source__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>API_Log__c.Context__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>API_Log__c.Endpoint__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>API_Log__c.Method__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>API_Log__c.Status_Code__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>API_Log__c.Success__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>API_Log__c.Duration_Ms__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>API_Log__c.Logged_At__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>API_Log__c.User__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>API_Log__c.Client_Ip__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>API_Log__c.Client_Name__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>API_Log__c.Request_Id__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>API_Log__c.Request_Headers__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>API_Log__c.Request_Body__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>API_Log__c.Response_Body__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>API_Log__c.Error_Message__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>API_Log__c.External_Id__c</field><readable>true</readable></fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>API Log Viewer</label>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>API_Log__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <tabSettings><tab>API_Log__c</tab><visibility>Visible</visibility></tabSettings>
+</PermissionSet>
